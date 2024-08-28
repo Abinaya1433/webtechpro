@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+          #main{
+                 background-color: azure;
+                 margin: 100px; 
+                 padding: 10px; 
+                 display: grid; 
+                 grid-template-areas:'twenty-five twenty-five twenty-five twenty-five'
+                                    'clr clr minus plus'
+                                    'seven eight nine slash'
+                                    'four five six multiply'
+                                    'one two three equal'
+                                    'zero zero dot equal';     
+
+        }
+        #main>div{
+
+            padding: 10px;
+            margin: 10px;
+        }
+        #two-five{
+            background-color: orangered;
+        }
+        #cl{
+            background-color: skyblue ;
+        }
+        .num{
+            background-color: lightpink;
+        }
+        #eql{
+            background-color: red;
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+        <div id="main">
+        <div style="grid-area:twenty-five;"id="two-five">25</div>
+        <div style="grid-area:clr;" id="cl">clear</div>
+        <div style="grid-area:minus;" class="num">-</div>
+        <div style="grid-area:plus;" class="num" >+</div>
+        <div style="grid-area:seven;" class="num">7</div>
+        <div style="grid-area:eight;" class="num">8</div>
+        <div style="grid-area:nine;" class="num">9</div>
+        <div style="grid-area:slash;" class="num">/</div>
+        <div style="grid-area:four;" class="num">4</div>
+        <div style="grid-area:five;" class="num">5</div>
+        <div style="grid-area:six;" class="num">6</div>
+        <div style="grid-area:multiply;" class="num">x</div>
+        <div style="grid-area:one;" class="num">1</div>
+        <div style="grid-area:two;" class="num">2</div>
+        <div style="grid-area:three;" class="num">3</div>
+        <div style="grid-area:equal;" id="eql">=</div>
+        <div style="grid-area:zero;" class="num">0</div>
+        <div style="grid-area:dot;" class="num">.</div>
+        </div>
+    </body>
+</html>
